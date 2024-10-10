@@ -12,6 +12,8 @@ set cursorline
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-l
+    ockfile --production' }
 call plug#end()
 
 # gruvbox
